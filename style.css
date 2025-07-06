@@ -3,3 +3,33 @@ body{
     font-family: sans-serif;
     color: black;
 }
+.logo{
+    margin:auto 5px;
+    height:40px;
+    width:45px;
+    border-radius: 90%;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  border:2px solid black;
+  color: white;
+  background-color: black;
+  margin:12px;
+}
+.navbar a i{
+    margin: 3px;
+}
+.navbar a{
+    margin: auto 5px;
+    text-decoration:none;
+    color:#fff;
+}
+.ref{
+    display: flex;
+}
+.head{
+    text-align: center;
+    flex:1;
+    margin:auto
+}
