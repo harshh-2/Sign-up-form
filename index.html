@@ -18,24 +18,24 @@
         </div>
     </div>
 </header>
-<div class="main"><div>
-    <div class="banner"><img src="Image Resources/view.jpg" alt="coverer"></div>
-</div><div class="frm">
+<div class="main">
+    <div class="frm">
     <div class="title">Sign-up</div>
-    <form action="#" method="POST">
+    <form action="#" method="get">
     <div class="entry">
-            <label for="firstname">First Name<br><br><input type="text" id="firstname" required></label>
-            <label for="secondname">Second Name<br><br><input type="text" id="secondname" required></label> 
+            <label for="firstname">First Name<br><br><input type="text" name="firstname" id="firstname" required></label>
+            <label for="secondname">Second Name<br><br><input type="text" name="secondname" id="secondname" required></label> 
     </div>
         <div class="entry1">
-            <label for="email">E-mail<br><br><input type="email" id="email" required></label>
-            <label for="username">Display Name<br><br><input type="text" id="username" required></label>
+            <label for="email">E-mail<br><br><input type="email" name="email" id="email" required></label>
+            <label for="username">Display Name<br><br><input type="text"  name="username"id="username" required></label>
         </div>
          <div class="entry2">
-            <label for="password">Create Password<br><br><input type="password" id="password"minlength="8" maxlength="16" required></label>
+            <label for="password">Create Password<br><br><input type="password" name="password" id="password" minlength="8" maxlength="16" required></label>
          </div>
         <div class="submit-btn">
       <button type="submit">Sign Up</button>
+      <button type="reset">Reset</button>
     </div>
      </form>
 </div>
